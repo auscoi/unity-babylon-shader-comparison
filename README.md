@@ -1,7 +1,7 @@
 # unity-babylon-shader-comparison
-This project was created to demonstrate how Unity Shadergraph handles a 360 2:1 equirectangular panorama applied to the view direction as a spherical skybox regardless of the mesh shape, which only affects the overall silhouette.
+**(Unity Version 2021.3.16 URP)**
 
-**Unity Version 2021.3.16 URP**
+This project was created to demonstrate how Unity Shadergraph handles a 360 2:1 equirectangular panorama applied to the view direction as a spherical skybox regardless of the mesh shape, which only affects the overall silhouette.
 
 Compare this Shadergraph shader to my shader written in BablyonJS's Node Material Editor. I use identical math and the same exact image in both projects but the Babylon NME produces terrible looking jagged seam artifacts at the moment. 
 
